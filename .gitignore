@@ -216,3 +216,67 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================================
+# AWS Playground — Custom .gitignore additions
+# ============================================
+
+# ----------------------------
+# AWS Credentials and Secrets
+# ----------------------------
+# CRITICAL: Never commit AWS credentials
+.aws/
+*.pem
+*.key
+credentials
+credentials.csv
+*access_key*
+*secret_key*
+*.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# ----------------------------
+# Environment Variable Files
+# ----------------------------
+# These often contain secrets
+.env
+.env.*
+*.env
+env.local
+env.*.local
+
+# ----------------------------
+# macOS System Files
+# ----------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ----------------------------
+# VS Code Settings
+# ----------------------------
+# Personal editor settings shouldn't be in the repo
+.vscode/
+*.code-workspace
+
+# ----------------------------
+# Temporary and Log Files
+# ----------------------------
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ----------------------------
+# Compiled and Binary Files
+# ----------------------------
+*.zip
+*.tar.gz
+*.exe
+*.dll
