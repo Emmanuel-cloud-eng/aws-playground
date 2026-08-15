@@ -22,3 +22,5 @@
 - "Update README with VPC section"
 - "Remove unused EC2 configuration file"
 - "Configure billing alarm at five dollar threshold"
+
+## Accidentally staged content I don't want to commit yet

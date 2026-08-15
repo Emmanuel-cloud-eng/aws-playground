@@ -13,3 +13,4 @@ I created this on Day 2 of my AWS learning journey.
 - git diff
 - git log
 - git pull
+- git show 
