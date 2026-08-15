@@ -1,6 +1,6 @@
 # Exercise 01 — AWS Account Setup and Security
 
-**Date:** 2026-08-15 (put today's date)
+**Date:** 2026-08-15 
 **Status:** Completed
 
 ## What I Did
