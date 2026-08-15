@@ -5,12 +5,12 @@
 
 ## What I Did
 
-1. ✅ Enabled MFA on root account
-2. ✅ Created billing alarm ($5 threshold)
-3. ✅ Created IAM user `playground-admin`
-4. ✅ Created access keys for CLI
-5. ✅ Configured AWS CLI
-6. ✅ Verified CLI access with `aws sts get-caller-identity`
+1. Enabled MFA on root account
+2. Created billing alarm ($5 threshold)
+3. Created IAM user `playground-admin`
+4. Created access keys for CLI
+5. Configured AWS CLI
+6. Verified CLI access with `aws sts get-caller-identity`
 
 ## Key Concepts Learned
 

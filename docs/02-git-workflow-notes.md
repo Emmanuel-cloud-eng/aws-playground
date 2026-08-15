@@ -74,7 +74,7 @@ git push is when you push your code to github cloud.
 ### git restore filename
 **What it does:** it restore your local file to what it was on your previous commit
 **When to use:** You mistakenly delete your locate file and wants it back
-**⚠️ Warning:** You lose your current file 
+**Warning:** You lose your current file 
 
 ### git restore --staged filename
 **What it does:** Removes filename from the staging area, but keeps your changes in the working directory.

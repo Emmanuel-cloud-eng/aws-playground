@@ -1,4 +1,4 @@
-# AWS Playground 🚀
+# AWS Playground 
 
 My personal hands-on learning environment for AWS, Git, and DevOps.
 
