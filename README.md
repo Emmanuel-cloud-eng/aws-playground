@@ -28,7 +28,7 @@ aws-playground/
 
 ## Security
 
-⚠️ **No AWS credentials, access keys, or secrets are stored in this
+ **No AWS credentials, access keys, or secrets are stored in this
 repository.** All sensitive configuration is handled through environment
 variables and AWS CLI profiles.
 
