@@ -66,3 +66,46 @@
 
 ### Next steps:
 - Day 4: IAM deep dive — create groups, explore policies
+
+
+---
+
+
+## Day 4 — 2026-08-19
+
+**Time spent:** ~3 hours
+
+### What I did:
+- Explored AWS managed policies (S3, IAM, AdministratorAccess, PowerUserAccess)
+- Created IAM group: playground-learners
+- Created custom IAM policy: PlaygroundS3ReadOnly
+- Attached custom policy to playground-learners group
+- Explored IAM roles and trust policies
+- Used IAM Policy Simulator to verify policy behavior
+- Downloaded and reviewed IAM credential report
+- Verified everything via AWS CLI
+
+### Key concepts I can now explain:
+- What a user, group, policy, and role are
+- Why implicit deny is the default in AWS
+- The difference between AWS managed and customer managed policies
+- What a trust policy does and why roles need one
+- Why groups exist (permission management at scale)
+- The difference between bucket-level and object-level S3 ARNs
+
+### What clicked today:
+- (something that made sense)
+- (a connection between two concepts you understood)
+
+### What confused me:
+- (be honest)
+
+### CLI commands I now know:
+- `aws iam list-groups`
+- `aws iam list-attached-group-policies --group-name NAME`
+- `aws iam get-group --group-name NAME`
+- `aws iam get-policy --policy-arn ARN`
+- `aws iam get-policy-version --policy-arn ARN --version-id v1`
+
+### Next steps:
+- Day 5: S3 fundamentals — create a bucket, upload files, understand permissions
